@@ -1,47 +1,55 @@
-# 🐦 Flappy Bird Clone (Python - Pygame)
 
-A Python clone of the popular Flappy Bird game built using the `pygame` library.  
-This project helped me understand game development concepts such as game loops, gravity, collision detection, and event handling.
+# 🤖 Jarvis-Like Voice Assistant (Python)
+
+A basic desktop assistant built using Python that can recognize and respond to voice commands.  
+It’s not a real AI, but it mimics assistant behavior with hard-coded commands and smart responses.
 
 ---
 
-## 🎮 Features
+## 🎤 What It Can Do
 
-- Pixel-perfect character movement and collision
-- Scoring system with increasing difficulty
-- Gravity + jump mechanics
-- Endless game loop with restart functionality
+- Respond to commands like:
+  - “Open YouTube”
+  - “What time is it?”
+  - “Search Google for ...”
+- Speak responses using text-to-speech
+- Open websites and apps
+- Basic interaction with the desktop
 
 ---
 
 ## 🛠 Tech Stack
 
 - Python 3
-- Pygame
+- `speech_recognition`
+- `pyttsx3`
+- `webbrowser`
+- `datetime`
 
 ---
 
 ## 🚀 How to Run
 
-1. Install Pygame:
-   ```pip install pygame```
-2. Run the game:
-   ```python file_name.py```
+1. Install dependencies:
+   ```pip install pyttsx3 speechrecognition pyaudio```
+2. Run the script:
+   ```python jarvis.py```
+
+🧠 Concepts Used
+
+Speech-to-text and text-to-speech
+
+Command recognition
+
+Automating browser and desktop tasks
+
+Using conditionals for task routing
 
 🙌 Why I Built This
 
-To strengthen my Python and logic-building skills
+I wanted to create something I could "talk" to
 
-To explore how 2D games work
+To learn how voice input and automation works in Python
 
-To have fun and challenge myself
-
-📚 Concepts Learned
-
-Game loop mechanics
-
-Event-driven programming
-
-Sprite movement and hitbox logic
-
-Timing and frame rate control
+To explore scripting logic beyond just tutorials
+  
